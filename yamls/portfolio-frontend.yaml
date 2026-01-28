@@ -41,7 +41,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: portfolio-frontend
+  name: portfolio-frontend-lb
   namespace: portfolio
 spec:
   selector:
