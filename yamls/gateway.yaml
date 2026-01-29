@@ -4,6 +4,9 @@ metadata:
   name: homelab-gateway
   namespace: envoy-gateway-system
 spec:
+  addresses:
+    - type: IPAddress
+      value: 10.0.0.231
   gatewayClassName: envoy
   infrastructure:
     labels:
